@@ -6,30 +6,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    we
+    android:weightSum="5"
     tools:context=".MainActivity">
 
-<LinearLayout
-    android:background="#f20"
-    android:layout_weight="4"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
     <TextView
+        android:background="#f20"
         android:layout_weight="1"
+        android:orientation="vertical"
         android:gravity="center"
         android:textSize="50dp"
         android:text="1"
         android:layout_width="match_parent"
         android:layout_height="0dp"/>
 
-</LinearLayout>
 <LinearLayout
     android:background="#FFEB3B"
-    android:layout_weight="1"
+    android:layout_weight="4"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="0dp">
     <TextView
         android:layout_weight="3"
         android:gravity="center"
